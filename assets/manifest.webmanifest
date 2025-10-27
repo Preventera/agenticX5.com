@@ -1,0 +1,21 @@
+{
+  "name": "AgenticX5",
+  "short_name": "AgenticX5",
+  "description": "Plateforme d'intelligence agentique pour la santé, sécurité et environnement",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0516",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "/assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

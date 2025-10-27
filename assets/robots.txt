@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://agenticx5.com/sitemap.xml
+
+Crawl-delay: 1
+
+Disallow: /assets/

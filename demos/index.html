@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Démos Interactives | AgenticX5</title>
+  <meta name="description" content="Explorez 18 démos interactives AgenticX5 : travail en hauteur, espaces clos, RCA, SafetyGraph Neo4j.">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+  <header class="header glass">
+    <div class="container">
+      <div class="header-content">
+        <a href="/" class="logo">
+          <span class="logo-text">Agentic<strong>X5</strong></span>
+        </a>
+        
+        <button class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        
+        <nav class="nav" id="mainNav">
+          <ul class="nav-list">
+            <li><a href="/solutions/" class="nav-link">Solutions</a></li>
+            <li><a href="/plateformes/" class="nav-link">Plateformes</a></li>
+            <li><a href="/juridictions/" class="nav-link">Juridictions</a></li>
+            <li><a href="/demos/" class="nav-link active">Démos</a></li>
+            <li><a href="/contact/" class="btn btn-primary btn-sm">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section style="padding: 4rem 0;">
+      <div class="container">
+        <h1 style="font-size: 2.5rem; margin-bottom: 1rem; text-align: center;">Démos Interactives</h1>
+        <p style="font-size: 1.25rem; color: var(--text-dim); margin-bottom: 3rem; text-align: center;">
+          Explorez nos démos Netlify organisées par use-case. Essayez avant de déployer.
+        </p>
+        
+        <!-- Démo 1 -->
+        <div class="glass" style="padding: 2rem; margin-bottom: 2rem;">
+          <h2 style="margin-bottom: 1rem;">🪜 Construction Site Safety</h2>
+          <p style="color: var(--text-dim); margin-bottom: 1rem;">
+            Monitoring chantier complet : détection EPI hauteur, inspections échelles/échafaudages, alertes temps réel.
+          </p>
+          <p style="margin-bottom: 1rem;"><strong>Module :</strong> WorkAtHeightAI</p>
+          <a href="https://agenticx5constructionfinal.netlify.app/" target="_blank" class="btn btn-primary">Lancer la Démo →</a>
+        </div>
+        
+        <!-- Démo 2 -->
+        <div class="glass" style="padding: 2rem; margin-bottom: 2rem;">
+          <h2 style="margin-bottom: 1rem;">⚠️ Simulation Accident Chute Échelle</h2>
+          <p style="color: var(--text-dim); margin-bottom: 1rem;">
+            Reconstitution 3D accident chute avec analyse causes profondes guidée (5 Whys), graphes causaux Neo4j.
+          </p>
+          <p style="margin-bottom: 1rem;"><strong>Module :</strong> RootCauseAI</p>
+          <a href="https://simulationaccidentchute.netlify.app/" target="_blank" class="btn btn-primary">Lancer la Démo →</a>
+        </div>
+        
+        <!-- Démo 3 -->
+        <div class="glass" style="padding: 2rem; margin-bottom: 2rem;">
+          <h2 style="margin-bottom: 1rem;">🕸️ SafetyGraph Dashboard</h2>
+          <p style="color: var(--text-dim); margin-bottom: 1rem;">
+            Dashboard interactif Neo4j Bloom : navigation graphe 793K+ incidents CNESST, requêtes Cypher visuelles.
+          </p>
+          <p style="margin-bottom: 1rem;"><strong>Plateforme :</strong> SafetyGraph</p>
+          <a href="https://safetygraphdashboard.netlify.app/" target="_blank" class="btn btn-primary">Lancer la Démo →</a>
+        </div>
+        
+        <!-- Démo 4 -->
+        <div class="glass" style="padding: 2rem; margin-bottom: 2rem;">
+          <h2 style="margin-bottom: 1rem;">🤖 Architecture Agentique</h2>
+          <p style="color: var(--text-dim); margin-bottom: 1rem;">
+            Visualisation architecture 110+ agents : orchestrateur HUGO, pôles spécialisés, mémoire partagée Neo4j.
+          </p>
+          <p style="margin-bottom: 1rem;"><strong>Plateforme :</strong> SafetyAgentic</p>
+          <a href="https://architectureagentiquesafetgraph.netlify.app/" target="_blank" class="btn btn-primary">Lancer la Démo →</a>
+        </div>
+        
+        <!-- Démo 5 -->
+        <div class="glass" style="padding: 2rem; margin-bottom: 2rem;">
+          <h2 style="margin-bottom: 1rem;">🔍 ARC Interactif</h2>
+          <p style="color: var(--text-dim); margin-bottom: 1rem;">
+            Agent Recherche Conformité : requêtes multi-juridictions (OSHA/CNESST/ISO), RAG avec citations, zéro hallucinations.
+          </p>
+          <p style="margin-bottom: 1rem;"><strong>Module :</strong> ARC</p>
+          <a href="https://arcdemolnteractif.netlify.app/" target="_blank" class="btn btn-primary">Lancer la Démo →</a>
+        </div>
+        
+        <!-- CTA -->
+        <div class="glass" style="padding: 3rem; text-align: center; margin-top: 4rem;">
+          <h2 style="margin-bottom: 1rem;">Intéressé par un Déploiement Personnalisé ?</h2>
+          <p style="color: var(--text-dim); margin-bottom: 2rem;">
+            Contactez-nous pour un pilote 90 jours adapté à vos besoins spécifiques.
+          </p>
+          <a href="/contact/" class="btn btn-primary btn-lg">Demander une Démo Personnalisée</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-copy">© 2025 AgenticX5. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop">↑</button>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
